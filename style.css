@@ -50,8 +50,6 @@
  .panel::before,
  .panel::after {
      content: "Click";
-
-     align-self: center;
      height: 0%;
      width: 100%;
      display: flex;
@@ -72,7 +70,6 @@
 
  .panel::after {
      content: "Me";
-     align-self: center;
      top: auto;
      left: auto;
      bottom: 0;
